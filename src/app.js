@@ -36,7 +36,6 @@ export const App = () => {
 				<div className={styles.steps}>
 					<div className={styles['steps-content']}>
 						{steps[activeIndex].content}
-						Контент соответственный шагу. Сейчас активен шаг 3
 					</div>
 					<ul className={styles['steps-list']}>
 						{data.map((item, index) => (
