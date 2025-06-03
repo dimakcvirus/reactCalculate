@@ -1,0 +1,47 @@
+{
+    "name": "tic-tac-toe",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint . --ext .js, .jsx",
+        "format": "prettier --write .",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@vitejs/plugin-react": "^4.5.0",
+        "prop-types": "^15.8.1",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    },
+    "resolutions": {
+        "prop-types/react-is": "^19.0.0"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest",
+            "prettier"
+        ],
+        "plugins": [
+            "prettier"
+        ]
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.25.0",
+        "@types/react": "^19.1.2",
+        "@types/react-dom": "^19.1.2",
+        "babel-plugin-check-prop-types": "^1.1.0",
+        "eslint": "^9.28.0",
+        "eslint-config-prettier": "^10.1.5",
+        "eslint-plugin-prettier": "^5.4.1",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "eslint-plugin-react-refresh": "^0.4.19",
+        "globals": "^16.0.0",
+        "prettier": "^3.5.3",
+        "vite": "^6.3.5"
+    }
+}
